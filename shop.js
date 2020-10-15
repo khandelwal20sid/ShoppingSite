@@ -176,8 +176,6 @@ function searchProduct(searchValue) {
 }
 
 // this is a function to get a product based on id from a particular array
-// @param 1 the array u want to get products from
-// @param 2 the id u want to search
 
 function getProductByID(productArray, id) {
   return productArray.find(function (product) {
