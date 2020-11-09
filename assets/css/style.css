@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: lightgrey;
+  line-height: 70px;
+}
+
+h1 {
+  margin-left: 5%;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.search {
+  height: 70px;
+  width: 60%;
+  /* background-color: red; */
+  display: inline-block;
+}
+
+.search input {
+  height: 40px;
+  width: 100%;
+  text-indent: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.filter {
+  padding: 5px;
+  height: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+.filterCont {
+  margin-left: 30%;
+}
+
+.filter input {
+  height: 25px;
+  width: 20%;
+  margin-left: 10px;
+  text-indent: 20px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  /* background-color: gray; */
+}
+
+.productwrapper {
+  height: auto;
+  width: 80%;
+  /* background-color: green; */
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+.product {
+  height: auto;
+  width: 25%;
+  /* background-color: red; */
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 6.25%;
+  border: 1px solid lightgray;
+}
+
+.prodimg {
+  height: 300px;
+  width: 100%;
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+
+.product h3,
+.product p {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.product p {
+  color: gray;
+}
+button {
+  padding: 10px;
+}
